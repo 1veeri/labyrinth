@@ -1,4 +1,4 @@
-from sprite import Sprite
+from entities.sprite import Sprite
 
 
 class Enemy:
