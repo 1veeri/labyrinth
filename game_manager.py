@@ -4,7 +4,7 @@ from sys import exit
 from entities.player import Player
 from entities.wall import Wall
 from entities.enemy import Enemy
-from exit import End
+from entities.exit import End
 
 
 class GameManager:
