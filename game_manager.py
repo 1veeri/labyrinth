@@ -185,6 +185,5 @@ class GameManager:
                 self.end_text3,
                 (s.WIDTH_SCREEN / 2 - self.end_text3.get_width() / 2, 300),
             )
-
         pygame.display.update()
         self.clock.tick(s.FPS)
