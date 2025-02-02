@@ -74,6 +74,8 @@ class GameManager:
                         self.player.speed[1] = 0
                     if event.key == pygame.K_d:
                         self.player.speed[0] = 0
+                if event.type == pygame.MOUSEBUTTONDOWN:
+                    self.player.attack()
             if self.game_state == "end":
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_SPACE:
